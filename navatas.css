@@ -1,0 +1,489 @@
+@font-face {
+    font-family: 'Mart';
+    src: local('Mart Book'), local('Mart-Book'),
+        url('font/Mart-Book.woff2') format('woff2'),
+        url('font/Mart-Book.woff') format('woff'),
+        url('font/Mart-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: local('Mart Bold'), local('Mart-Bold'),
+        url('font/Mart-Bold.woff2') format('woff2'),
+        url('font/Mart-Bold.woff') format('woff'),
+        url('font/Mart-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'Mart Ultra';
+    src: url('font/Mart-Ultra.eot');
+    src: local('Mart Ultra'), local('Mart-Ultra'),
+        url('font/Mart-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('font/Mart-Ultra.woff2') format('woff2'),
+        url('font/Mart-Ultra.woff') format('woff'),
+        url('font/Mart-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: local('Arvo Regular'), local('Arvo-Regular'),
+        url('font/Arvo.woff2') format('woff2'),
+        url('font/Arvo.woff') format('woff'),
+        url('font/Arvo.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+nav{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    top: 0;
+    transition: background-color 220ms ease, padding 220ms ease;
+    align-items: center;
+    left: 0;
+    background-color: transparent;
+    z-index: 20;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
+
+li{
+    overflow: visible;
+}
+
+.logo{
+    display: flex;
+    padding-top: 55px;
+    padding-left: 85px;
+
+}
+
+.navatas{
+    display: flex;
+    margin: 0;
+    padding: 5px 5px 0px 0px;
+}
+
+.navbawah{
+    display: flex;
+    margin: 0;
+    padding: 0;  
+}
+
+.listatas{
+    margin: 0px 10px 0px 0px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+.listbawah{
+    overflow: hidden;
+    padding: 0px 40px 0px 40px;
+    margin: 0px 20px 0px 0px;
+}
+
+.logofontatas{
+    text-decoration: none;
+    padding: 20px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
+    padding-left: 30px;
+    overflow: hidden;
+    font-family: 'Mart';
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+.logofontbawah{
+    text-decoration: none;
+    font-family: "Mart Ultra";
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.logobawah{
+    margin: 0;
+    padding: 0px 20px 0px 0px;
+}
+
+.listfontatas{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Mart Ultra";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.listfontbawah{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Mart Ultra";
+    font-size: 15px;
+}
+
+.listfontatas:hover, .logofontatas:hover, .listfontbawah:hover, .logofontbawah:hover{
+    text-decoration: underline;
+    color: #dbdbdb;
+}
+
+h1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Mart Ultra";
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Arvo';
+    color: #FFFFFF;
+}
+
+.bhome{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+}
+
+.bhome1-1{
+    border: 3px solid #69c5c6;
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bhome2{
+  
+}
+
+.bhome2-2{
+    border: 3px solid #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.bhome21{
+    display:block;
+    padding: 0;
+    margin-top: 0;
+    width:400px;
+    height:400px;
+    overflow:auto;
+}
+
+.bhome23{
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+}
+
+.lat{
+    padding-bottom: 30px;
+}
+
+.latimg{
+   border-radius: 5px 5px 5px 5px;
+}
+
+.latfont{
+    padding-top: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  /* membuat styling pada batang atau bar scrollbar  */
+  /* kita beri warna abu tua dengan lengkungan di sisi atas dan bawahnya  */
+  ::-webkit-scrollbar-thumb {
+    background-color: #69c5c6;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #4ca8aa;
+  }
+
+  .bhome22{
+    margin: 3px 3px auto 3px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 0px 5px 0px;
+    background-color: #69c5c6;
+    text-align: center;
+    position: sticky;
+}
+
+.fjscroll{
+    text-decoration: none;
+    color: #1b1d24;
+    font-family: "Mart Ultra";
+    font-size: 20px;
+}
+
+.bhome1j{
+    margin: 3px 3px auto 3px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 0px 5px 0px;
+    background-color: #69c5c6;
+    text-align: center;
+}
+
+.fjhome{
+    text-decoration: none;
+    color: #1b1d24;
+    font-family: "Mart Ultra";
+    font-size: 20px;
+}
+
+.logohome{
+    padding-top: 10px;
+}
+
+.thome{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+
+.fkuning{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Arvo';
+    color: #69c5c6;
+    font-size: 15px;
+}
+
+.fbputih{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.fkuning:hover{
+    color: #91d6d5;
+    text-decoration: underline;
+}
+
+a{
+    color: #FFFFFF;
+    font-family: 'Arvo';
+}
+
+
+.ghome{
+    border: 3px solid #69c5c6;
+    padding-bottom: 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #69c5c6;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid #69c5c6;
+}
+th, td{
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.tnama{
+    padding-left: 10px;
+}
+
+.frecent{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Mart Ultra";
+    color: #FFFFFF;
+}
+
+.story{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr; 
+    gap: 20px;
+}
+
+.ig{
+    padding-top: 30px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+.igb{
+    background-color: #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tt{
+    padding-top: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.ttb{
+    background-color: #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.igb:hover, .ttb:hover{
+    box-shadow: 0 0 15px #FFFFFF;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    line-height: 20px;
+}
+
+.foot1{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.f1-1{
+    padding-left: 90px;
+}
+
+.f1-2{
+    font-family: 'Mart';
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.foot2{
+    padding-top: 60px;
+    padding-left: 0;
+}
+
+.foot3{
+    padding-top: 60px;
+    padding-left: 0;
+    padding-top: 80px;
+}
+
+.foot4{
+    padding-top: 60px;
+    padding-left: 0;
+    display: flex;
+}
+
+.f2{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.f3{
+    font-size: 15px;
+}
+
+.f4-1{
+    margin-top: 0;
+}
+
+.f4-2{
+    margin-top: 30px;
+}
+
+.f1-1:hover, .f1-2:hover, .f2:hover, .f3:hover, .f4-1:hover, .f4-2:hover{
+    color: #919191;
+}
+
+.crp{
+    color: #cfc6c6;
+}
+
+.sg1b{
+    border: 3px solid #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.sg1{
+    background-color: #69c5c6;
+    border-bottom: 3px solid #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.sgf1{
+    padding: 10px 7px 7px 7px;
+}
+
+.sf1{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.sf1:hover{
+    color: #bababa;
+    text-decoration: underline;
+}
+
+.sg2b{
+    border: 3px solid #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.sg2{
+    background-color: #69c5c6;
+    border-bottom: 3px solid #69c5c6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.sgf2{
+    padding: 10px 7px 7px 7px;
+}
+
+.sf2{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.sf2:hover{
+    color: #bababa;
+    text-decoration: underline;
+}
+
+.ms1{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 4px solid #69c5c6;
+    border-radius: 5px 5px 5px;
+}
+
+.ms1img{
+    background-color: #69c5c6;
+    border-bottom: 3px #69c5c6;
+}
+
+.ms1f{
+    margin: 20px 20px 20px 20px;
+}
+
+.ms1f-1{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Martic Memories</title>
+    <link rel="stylesheet" href="navatas.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="site.js"></script>
+    <script defer src="auth.js"></script>
+</head>
+<body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <header>
+        <nav>
+            <div class="logo menuatas">
+                <a href="index.html"><img height="100px" src="picture/LOGO MARTIC PERSEGI.png" alt="Logo Martic"></a>
+            </div>
+            <div>
+                <a class="navatas logofontatas menuatas" href="index.html">Martic Memories</a>
+                <ul class="navatas menuatas">
+                    <li class="listatas"><a class="listfontatas" href="index.html">HOME</a></li>
+                    <li class="listatas"><a class="listfontatas" href="marticstory.html">MARTIC STORY</a></li>
+                    <li class="listatas"><a class="listfontatas" href="profileclass.html">PROFILE CLASS</a></li>
+                    <li class="listatas"><a class="listfontatas" href="achivement.html">ACHIEVEMENT</a></li>
+                    <li class="listatas"><a class="listfontatas" href="login.html" aria-current="page">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="barnavbawah">
+                <ul class="navbawah menubawah">
+                    <li class="listbawah"><a class="logobawah" href="index.html"><img width="20px" src="picture/Logo Martic Persegi.jpg" alt="Martic"></a></li>
+                    <li class="listbawah"><a class="logofontbawah" href="index.html">Martic Memories</a></li>
+                    <li class="listbawah"><a class="listfontbawah" href="index.html">HOME</a></li>
+                    <li class="listbawah"><a class="listfontbawah" href="marticstory.html">MARTIC STORY</a></li>
+                    <li class="listbawah"><a class="listfontbawah" href="profileclass.html">PROFILE CLASS</a></li>
+                    <li class="listbawah"><a class="listfontbawah" href="achivement.html">ACHIEVEMENT</a></li>
+                    <li class="listbawah"><a class="listfontbawah" href="login.html" aria-current="page">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="sc-anim">
+        <section class="auth-card">
+            <h1>Masuk ke Martic Memories</h1>
+            <p class="auth-intro">Masuk atau buat akun untuk menyimpan sesi di browser ini.</p>
+            <div class="auth-tabs" role="tablist" aria-label="Pilih mode akun">
+                <button class="auth-tab is-active" id="login-tab" type="button" role="tab" aria-selected="true" aria-controls="auth-form" data-auth-mode="login">Login</button>
+                <button class="auth-tab" id="register-tab" type="button" role="tab" aria-selected="false" aria-controls="auth-form" data-auth-mode="register">Register</button>
+            </div>
+            <form id="auth-form">
+                <label for="auth-username">Username</label>
+                <input id="auth-username" name="username" type="text" autocomplete="username" required>
+                <label for="auth-password">Password</label>
+                <input id="auth-password" name="password" type="password" autocomplete="current-password" required>
+                <div id="confirm-password-field" hidden>
+                    <label for="auth-confirm-password">Ulangi password</label>
+                    <input id="auth-confirm-password" name="confirm-password" type="password" autocomplete="new-password">
+                </div>
+                <button class="auth-submit" id="auth-submit" type="submit">Masuk</button>
+                <p id="auth-feedback" class="auth-feedback" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="foot1">
+                <a class="f1-1" href="index.html"><img height="60px" src="picture/LOGO MARTIC PERSEGI.png" alt="Logo Martic"></a><br>
+                <a class="f1-2" href="index.html">Martic Memories</a>
+            </div>
+            <div class="foot2">
+                <a class="f2" href="index.html">HOME</a><br>
+                <a class="f2" href="marticstory.html">MARTIC STORY</a><br>
+                <a class="f2" href="profileclass.html">PROFILE CLASS</a><br>
+                <a class="f2" href="achivement.html">ACHIEVEMENT</a><br>
+                <a class="f2" href="login.html" aria-current="page">LOGIN</a>
+            </div>
+            <div class="foot3">
+                <a class="f3" href="">ABOUT US</a><br>
+                <a class="f3" href="">CONTACT</a><br>
+                <a class="f3" href="">DEVELOPMENT SUGGESTIONS</a>
+            </div>
+            <div class="foot4">
+                <a class="f4-1" href="https://www.instagram.com/martic.smaba/"><img width="100px" src="picture/IG.png" alt="Instagram Martic"></a>
+                <a class="f4-2" href="https://www.tiktok.com/@martic.25"><img width="40px" src="picture/pngaaa.com-4768645.png" alt="TikTok Martic"></a>
+            </div>
+        </div>
+        <div><center><a class="cpr" href="">&copy; 2024 Martic Memories. All rights reserved.</a></center></div>
+    </footer>
+</body>
+</html>

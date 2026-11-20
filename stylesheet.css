@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Mart Ultra';
+    src: url('Mart-Ultra.eot');
+    src: local('Mart Ultra'), local('Mart-Ultra'),
+        url('Mart-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Ultra.woff2') format('woff2'),
+        url('Mart-Ultra.woff') format('woff'),
+        url('Mart-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart Book';
+    src: url('Mart-Book.eot');
+    src: local('Mart Book'), local('Mart-Book'),
+        url('Mart-Book.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Book.woff2') format('woff2'),
+        url('Mart-Book.woff') format('woff'),
+        url('Mart-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-Light.eot');
+    src: local('Mart Light'), local('Mart-Light'),
+        url('Mart-Light.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Light.woff2') format('woff2'),
+        url('Mart-Light.woff') format('woff'),
+        url('Mart-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-Bold.eot');
+    src: local('Mart Bold'), local('Mart-Bold'),
+        url('Mart-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Bold.woff2') format('woff2'),
+        url('Mart-Bold.woff') format('woff'),
+        url('Mart-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart Fat';
+    src: url('Mart-Fat.eot');
+    src: local('Mart Fat'), local('Mart-Fat'),
+        url('Mart-Fat.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Fat.woff2') format('woff2'),
+        url('Mart-Fat.woff') format('woff'),
+        url('Mart-Fat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-Medium.eot');
+    src: local('Mart Medium'), local('Mart-Medium'),
+        url('Mart-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Medium.woff2') format('woff2'),
+        url('Mart-Medium.woff') format('woff'),
+        url('Mart-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart.eot');
+    src: local('Mart'),
+        url('Mart.eot?#iefix') format('embedded-opentype'),
+        url('Mart.woff2') format('woff2'),
+        url('Mart.woff') format('woff'),
+        url('Mart.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-ExtraBold.eot');
+    src: local('Mart ExtraBold'), local('Mart-ExtraBold'),
+        url('Mart-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Mart-ExtraBold.woff2') format('woff2'),
+        url('Mart-ExtraBold.woff') format('woff'),
+        url('Mart-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-SemiBold.eot');
+    src: local('Mart SemiBold'), local('Mart-SemiBold'),
+        url('Mart-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Mart-SemiBold.woff2') format('woff2'),
+        url('Mart-SemiBold.woff') format('woff'),
+        url('Mart-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mart';
+    src: url('Mart-Heavy.eot');
+    src: local('Mart Heavy'), local('Mart-Heavy'),
+        url('Mart-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Mart-Heavy.woff2') format('woff2'),
+        url('Mart-Heavy.woff') format('woff'),
+        url('Mart-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
